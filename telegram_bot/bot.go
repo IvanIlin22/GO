@@ -10,8 +10,8 @@ import (
 )
 
 const (
-	BotToken   = "1283737315:AAHtMv_A071gsgBbfP5Tsiy8QA-GawbjOxs"
-	WebhookURL = "https://2908ba66a1b4.ngrok.io"
+	BotToken   = "Your_token_from_BotFather"
+	WebhookURL = "https://XXXXXX.ngrok.io"
 )
 
 var rss = map[string]string{
