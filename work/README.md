@@ -10,4 +10,5 @@
 Используйте докер:
 
 `docker build -t work .`
+
 `docker run --rm -it -p 8080:8080 work`
