@@ -45,7 +45,6 @@ func quickSortUtil(list []int, lower int, upper int, comp func(int, int) bool) {
 	quickSortUtil(list, upper+1, stop, comp)  // pivot + 1 is the lower for right sub array.
 }
 
-
 func main() {
 	//data := []int{9, 1, 8, 2, 7, 3, 6, 4, 5}
 	data := []int{6, 4, 5, 1, 8, 2, 9, 7, 10, 3}
